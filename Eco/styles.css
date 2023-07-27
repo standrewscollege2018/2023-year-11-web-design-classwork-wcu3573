@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    background-color: rgb(37, 84, 112);
+}       
+.title{
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin-right: 55px;
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.weblinks{
+    text-align: right;
+    margin-right: 70px;
+    margin-top: 30px;  
+}
+.weblinks a:link, a:visited{
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: 'Cardo-Regular.ttf';
+    text-decoration: none;
+ 
+}
+.contentcontainer{
+    height: 87vh;
+    background: linear-gradient(to right,
+     rgb(19, 165, 206) 0%, rgb(19, 165, 206) 50%,
+        rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100% );
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.dove{
+    text-align: right;
+    padding-top: 70px;
+    margin-right: 80px;
+    
+}
+.text{
+    font-size: 32px;
+    margin-right: 250px;
+    margin-left: 110px;
+    margin-top: 40px;
+    color: aliceblue;
+
+}
+.text p{
+    margin-top: 50px;
+}
